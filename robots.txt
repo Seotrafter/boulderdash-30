@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /about/
+Sitemap: https://boulderdash-30.com/sitemap.xml

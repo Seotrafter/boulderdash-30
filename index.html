@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Boulder Dash® 30th – Kop, zbieraj klejnoty, unikaj pułapek!</title>
+    <meta name="keywords"
+        content="Boulder Dash, gra logiczna, klasyczna gra, retro gra, zbieranie klejnotów, kopanie tuneli, gra mobilna, Android, iOS, pikselowa przygoda, gra zręcznościowa, polska wersja">
+    <meta name="description"
+        content="Boulder Dash® 30th Anniversary to kultowa gra logiczno-zręcznościowa z ponad 200 poziomami. Kop tunele, zbieraj klejnoty i unikaj niebezpieczeństw w tej klasycznej przygodzie, teraz na Android i iOS!">
+    <link href="img/ico.webp" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Używamy plików cookie, aby ulepszyć Twoje wrażenia. Kontynuując, zgadzasz się na naszą
+            <a href="cookie.html">Polityka Cookie</a> oraz
+            <a href="terms.html">Zasady i warunki</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Akceptuję</button>
+            <button id="decline-cookies">Odrzucam</button>
+        </div>
+    </div>
+
+    <div class="container-xxl  p-0" style="background-color: #2d1b00;">
+
+        <div class="container-xxl position-relative p-3">
+            <nav class="navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0 bg-black">
+                <a href="/" class="navbar-brand p-0">
+                    <h1 class="m-0 text-warning" style="font-family: 'Press Start 2P', monospace;">BoulderDash 30th</h1>
+                </a>
+                <button class="navbar-toggler" type="button" id="menuToggle">
+                    <span class="fa fa-bars text-warning"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="/" class="nav-item nav-link active">Strona główna</a>
+                        <a href="about/" class="nav-item nav-link">O grze</a>
+                        <a href="contact/" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container py-5" style="background-color: #2d1b00;">
+                <div class="mx-auto p-4 rounded-4 border border-warning shadow-lg"
+                    style="max-width: 700px; background-color: #3a2505;">
+                    <div class="text-center">
+                        <img src="img/main.jpg" alt="Boulder Dash 30th" class="img-fluid rounded-3 mb-4 shadow"
+                            style="max-height: 300px; object-fit: cover;">
+
+                        <h1 class="text-warning mb-4"
+                            style="font-family: 'Press Start 2P', monospace; font-size: 1.5rem;">
+                            Boulder Dash® 30th Anniversary
+                        </h1>
+
+                        <p class="text-light mb-4" style="font-size: 1rem;">
+                            Legendarna gra powraca! Kop tunele, zbieraj klejnoty i unikaj spadających głazów. Każdy ruch
+                            ma znaczenie – planuj z wyprzedzeniem i przeżyj pikselową przygodę w głębinach!
+                        </p>
+
+                        <div class="d-flex justify-content-center gap-3 flex-wrap mb-4">
+                            <a href="https://play.google.com/store/apps/details?id=com.tapstargames.boulderdash30&hl=pl"
+                                target="_blank">
+                                <img src="img/play.png" style="max-width: 200px;" alt="">
+                            </a>
+                            <a href="https://apps.apple.com/pl/app/boulder-dash-30th-anniversary/id865484224?l=pl"
+                                target="_blank">
+                                <img src="img/app.png" style="max-width: 200px;" alt="">
+                            </a>
+                        </div>
+
+                        <div class="text-light small border-top pt-3">
+                            ⭐ 4,5 / 5 &nbsp;|&nbsp; 10,7 tys. opinii &nbsp;|&nbsp; 100 tys.+ pobrań<br>
+                            👶 Ocena treści: od 3 lat
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-xxl py-5" style="background-color: #2d1b00;">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid rounded-3 shadow wow zoomIn" data-wow-delay="0.5s" src="img/about.jpg"
+                            alt="Boulder Dash – o grze" style="max-height: 400px; object-fit: cover;">
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInUp text-light">
+                        <p class="section-title text-warning"
+                            style="font-family: 'Press Start 2P', monospace; font-size: 1rem;">O grze<span></span></p>
+                        <h1 class="mb-4 text-warning" style="font-size: 1.5rem;">Boulder Dash – kop, eksploruj, zbieraj!
+                        </h1>
+                        <p class="mb-4" style="font-size: 1rem;">
+                            Boulder Dash® 30th Anniversary to legendarna gra zręcznościowa z twistem logicznym.
+                            Eksploruj niebezpieczne jaskinie, kop tunele, unikaj pułapek i zbieraj cenne klejnoty.
+                            Pamiętaj – spadające głazy nie wybaczają błędów!
+                        </p>
+                        <a href="#download" class="btn btn-warning py-sm-3 px-sm-5 rounded-pill mt-3">
+                            Pobierz teraz
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row mt-5 text-center text-light">
+                    <h2 class="mb-4 text-warning">Co znajdziesz w grze?</h2>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="p-3 border border-warning rounded-3 h-100 bg-dark">
+                            <div class="mb-2" style="font-size: 2rem;">🪨</div>
+                            <h5 class="text-warning">Dynamika głazów</h5>
+                            <p class="small">Każdy ruch może wywołać lawinę – planuj z głową!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="p-3 border border-warning rounded-3 h-100 bg-dark">
+                            <div class="mb-2" style="font-size: 2rem;">💎</div>
+                            <h5 class="text-warning">Zbieranie klejnotów</h5>
+                            <p class="small">Zdobywaj diamenty i odblokowuj nowe poziomy.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="p-3 border border-warning rounded-3 h-100 bg-dark">
+                            <div class="mb-2" style="font-size: 2rem;">🕹️</div>
+                            <h5 class="text-warning">Ponad 200 poziomów</h5>
+                            <p class="small">Różnorodne światy pełne pułapek i wyzwań.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <div class="p-3 border border-warning rounded-3 h-100 bg-dark">
+                            <div class="mb-2" style="font-size: 2rem;">👾</div>
+                            <h5 class="text-warning">Wrogowie i pułapki</h5>
+                            <p class="small">Unikaj przeciwników i sprytnie omijaj przeszkody.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5" style="background-color: #2d1b00;">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp text-center">
+                    <p class="section-title text-warning justify-content-center">
+                        <span></span>Tryby i funkcje<span></span>
+                    </p>
+                    <h1 class="text-center mb-5 text-warning">Co znajdziesz w Boulder Dash® 30th</h1>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-hammer fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Kopanie tuneli</h5>
+                            <p class="m-0 text-light">Twórz własne ścieżki, by zdobyć drogocenne kamienie.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-gem fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Zbieranie klejnotów</h5>
+                            <p class="m-0 text-light">Główny cel gry – zbierz je wszystkie i znajdź wyjście!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-bomb fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Pułapki i fizyka</h5>
+                            <p class="m-0 text-light">Spadające skały, wybuchy i niebezpieczne otoczenie.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-skull-crossbones fa-3x text-warning"></i>
+                            </div>
+                            <h5 class="text-warning mb-2">Wrogowie</h5>
+                            <p class="m-0 text-light">Unikaj potworów i nie daj się złapać!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-layer-group fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Ponad 200 poziomów</h5>
+                            <p class="m-0 text-light">Eksploruj różnorodne światy i wyzwania.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-star fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Tryb klasyczny</h5>
+                            <p class="m-0 text-light">Powrót do oryginalnej wersji gry z 1984 roku!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-user-friends fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Nowi bohaterowie</h5>
+                            <p class="m-0 text-light">Zagraj jako Rockford lub Crystal i odkryj ich możliwości.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div
+                            class="service-item d-flex flex-column text-center rounded bg-dark h-100 p-4 border border-warning">
+                            <div class="service-icon mb-3"><i class="fas fa-clock fa-3x text-warning"></i></div>
+                            <h5 class="text-warning mb-2">Czasowe wyzwania</h5>
+                            <p class="m-0 text-light">Zbieraj wszystko na czas – sprawdź swoją zręczność!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5" style="background-color: #2d1b00;">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+
+                    <div class="col-lg-6 wow fadeInLeft text-center">
+                        <img src="img/why.webp" alt="Dlaczego grać w Boulder Dash" class="img-fluid rounded shadow"
+                            style="max-height: 400px; object-fit: cover;">
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInRight text-light">
+                        <p class="section-title text-warning">Dlaczego warto grać<span></span></p>
+                        <h2 class="mb-4 text-warning">Boulder Dash® 30th to nie tylko gra – to klasyczna przygoda i
+                            wyzwanie!</h2>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-warning me-2"></i>
+                                Kop tunele i eksploruj jaskinie pełne ukrytych niebezpieczeństw
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-warning me-2"></i>
+                                Zbieraj drogocenne klejnoty, unikając pułapek i głazów
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-warning me-2"></i>
+                                Ponad 200 poziomów z klasyczną i nową rozgrywką
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-warning me-2"></i>
+                                Tryb retro i nostalgiczna oprawa graficzna w stylu 8-bit
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-warning me-2"></i>
+                                Graj na telefonie i odkryj na nowo legendę gier zręcznościowych
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="download" class="container-xxl py-5" style="background-color: #2d1b00;">
+            <div class="container py-5 px-lg-5">
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-6 text-light">
+                        <p class="section-title text-warning"><span></span>Pobierz grę<span></span></p>
+                        <h2 class="mb-4 text-warning">Gotowy na przygodę? Boulder Dash® 30th czeka!</h2>
+                        <p class="mb-4">
+                            Przeżyj klasyczne pikselowe wyzwanie! Zbieraj klejnoty, unikaj pułapek i kop drogę do
+                            zwycięstwa.
+                            Pobierz grę na swoje urządzenie i daj się porwać przygodzie w głębinach!
+                        </p>
+
+                        <div class="d-flex flex-column flex-md-row gap-3 mt-3">
+                            <a target="_blank"
+                                href="https://play.google.com/store/apps/details?id=com.tapstargames.boulderdash30&hl=pl">
+                                <img src="img/play.png" style="max-width: 200px;" alt="">
+                            </a>
+                            <a target="_blank"
+                                href="https://apps.apple.com/pl/app/boulder-dash-30th-anniversary/id865484224?l=pl">
+                                <img src="img/app.png" style="max-width: 200px;" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 text-center">
+                        <img src="img/download.jpg" alt="Boulder Dash – pobierz grę" class="img-fluid rounded shadow"
+                            style="max-height: 400px; object-fit: cover;">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5" style="background-color: #2d1b00;">
+            <div class="container py-5 px-lg-5 wow fadeInUp">
+                <p class="section-title text-warning text-center"><span></span>Opinie graczy<span></span></p>
+                <h1 class="text-center mb-5 text-warning">Co mówią nasi gracze?</h1>
+
+                <div class="row g-4 text-light">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="testimonial-item bg-dark border border-warning rounded p-4 h-100 text-center">
+                            <img src="img/rev-1.png" alt="Adam K." class="rounded-circle mb-3"
+                                style="width: 70px; height: 70px; object-fit: cover;">
+                            <h5 class="mb-1 text-warning">Adam K.</h5>
+                            <span class="small d-block mb-2">Miłośnik klasyki</span>
+                            <div class="mb-3 text-warning">
+                                ★★★★★
+                            </div>
+                            <p class="fs-6">Grałem w Boulder Dash jako dziecko – ta wersja to świetny powrót do
+                                przeszłości! Fizyka głazów robi robotę!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="testimonial-item bg-dark border border-warning rounded p-4 h-100 text-center">
+                            <img src="img/rev-2.png" alt="Kasia W." class="rounded-circle mb-3"
+                                style="width: 70px; height: 70px; object-fit: cover;">
+                            <h5 class="mb-1 text-warning">Kasia W.</h5>
+                            <span class="small d-block mb-2">Fanka retro gier</span>
+                            <div class="mb-3 text-warning">
+                                ★★★★★
+                            </div>
+                            <p class="fs-6">Pikselowa grafika, wyzwania i szybkie poziomy – nie mogę się oderwać. Super
+                                zabawa!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="testimonial-item bg-dark border border-warning rounded p-4 h-100 text-center">
+                            <img src="img/rev-3.png" alt="Tomasz R." class="rounded-circle mb-3"
+                                style="width: 70px; height: 70px; object-fit: cover;">
+                            <h5 class="mb-1 text-warning">Tomasz R.</h5>
+                            <span class="small d-block mb-2">Gracz logiczny</span>
+                            <div class="mb-3 text-warning">
+                                ★★★★★
+                            </div>
+                            <p class="fs-6">Boulder Dash uczy myślenia – trzeba planować każdy ruch, żeby nie zginąć.
+                                Świetna gra!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="testimonial-item bg-dark border border-warning rounded p-4 h-100 text-center">
+                            <img src="img/rev-4.png" alt="Natalia S." class="rounded-circle mb-3"
+                                style="width: 70px; height: 70px; object-fit: cover;">
+                            <h5 class="mb-1 text-warning">Natalia S.</h5>
+                            <span class="small d-block mb-2">Graczka mobilna</span>
+                            <div class="mb-3 text-warning">
+                                ★★★★★
+                            </div>
+                            <p class="fs-6">Uwielbiam to, że mogę grać na telefonie! Nostalgia + świetna rozgrywka w
+                                jednym miejscu.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  text-light footer wow fadeIn" style="background-color: #2d1b00;">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-warning h5 mb-4">Kontakt<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Szpakowa 3, 30-691 Kraków, Polska</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+48 701 925 351</p>
+                        <p><i class="fa fa-envelope me-3"></i>kontakt@boulderdash-30.pl</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-warning h5 mb-4">Informacje<span></span></p>
+                        <a class="btn btn-link" href="cookie.html">Polityka Cookie</a>
+                        <a class="btn btn-link" href="privacy.html">Polityka prywatności</a>
+                        <a class="btn btn-link" href="terms.html">Zasady i warunki</a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-warning h5 mb-4">Nawigacja<span></span></p>
+                        <a class="btn btn-link" href="/">Strona główna</a>
+                        <a class="btn btn-link" href="about/">O grze</a>
+                        <a class="btn btn-link" href="contact/">Kontakt</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            &copy; <a class="border-bottom text-warning" href="/">Boulderdash-30</a> — Wszelkie prawa
+                            zastrzeżone.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
